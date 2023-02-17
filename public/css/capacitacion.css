@@ -1,0 +1,72 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+  .col-md-3{
+    margin: 10px;
+    box-shadow: 1px 1px 5px 0px #262525;
+  
+  }
+  .opciones-menu{
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 3px #dbdbdb;
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+
+  }
+  .card input,
+  .card select{
+    width: 80%;
+  }
+  .card label{
+    margin-left: 68px;
+  }
+  .inputs_positions{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+  }
+  .enviar_form{
+    margin: 10px 0px;
+    display: flex;
+    width: 80%;
+    position: relative;
+    justify-content: flex-end;
+  }
+  .tittle{
+    margin-left: 80px;
+    width: 80%;
+  }
+  .tittle h3{
+    font-weight: 700;
+  }
+  .info_capacitacion{
+    display: flex;
+    flex-direction: column;
+  }
+  .errors{
+    width: 80%;
+    margin-top: 5px;
+  }
+  .alert.alert-danger {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #ff1313;
+}
+.alert {
+  padding: 0px 1px;
+  border: none;
+  border-radius: 0;
+  font-size: 13px;
+  margin: 0 0 28px 0;
+}
