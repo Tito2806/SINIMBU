@@ -4,7 +4,7 @@
 
             @if (Auth::check() && Auth::user()->rol == 'Administrador')
                 <div class="card-header">
-                    <h2>Tabla de Galeria Actividad </h2>
+                    <h2>Registro de imágenes de Actividades</h2>
                     <!--boton que llama al modal de crear usuario-->
                     <div class="d-flex flex-row-reverse"><button
                             class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder"
@@ -17,10 +17,10 @@
                                 <thead class="font-weight-bold text-center">
                                     <tr>
                                         {{-- <th>No.</th> --}}
-                                        <th>Titulo</th>
+                                        <th>Título</th>
                                         <th>Descripción</th>
                                         <th>Fecha</th>
-                                        <th>Categoria</th>
+                                        <th>Categoría</th>
                                         <th>Imagen</th>
                                         <th>Acción</th>
                                     </tr>
@@ -64,15 +64,15 @@
                         <div class="errors" id="error_Fecha">
                         </div>
                         <br>
-                        <label for="CategoriaImg">Categoria</label> <br>
+                        <label for="CategoriaImg">Categoría</label> <br>
                         <select class="form-control" id="categoriaImg" name="categoriaImg">
-                            <option value="">Seleccione una categoria</option>
+                            <option value="">Seleccione una categoría</option>
                             <option value="charlas">CHARLAS</option>
                             <option value="capacitaciones">CAPACITACIONES</option>
-                            <option value="asesorias">ASESORIAS</option>
+                            <option value="asesorias">ASESORÍAS</option>
                             <option value="talleres">TALLERES</option>
                             <option value="eventos">EVENTOS</option>
-                            <option value="investigacion">INVESTIGACION</option>
+                            <option value="investigacion">INVESTIGACIÓN</option>
 
                         </select>
                         <div class="errors" id="error_Categoria">
@@ -133,7 +133,7 @@
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
-                    title: 'Se completo con exito!',
+                    title: 'Se completó con éxito!',
                     showConfirmButton: false,
                     timer: 1000
                 })
@@ -143,7 +143,7 @@
                 Swal.fire({
                     position: 'centered',
                     icon: 'error',
-                    title: 'Ocurrrio un problema!',
+                    title: 'Ocurrrió un problema!',
                     showConfirmButton: true,
                 })
             }
@@ -291,7 +291,7 @@
                     showCancelButton: true,
                     confirmButtonColor: '#3085d6',
                     cancelButtonColor: '#d33',
-                    confirmButtonText: 'Si, Eliminar!'
+                    confirmButtonText: 'Sí, Eliminar!'
                 }).then((result) => {
                     if (result.isConfirmed) {
                         $.ajax({

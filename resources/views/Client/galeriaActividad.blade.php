@@ -32,10 +32,10 @@
                             <li><a href="/galeriaActividadNimbuFiltro/?nombreFiltro=virtuales">VIRTUALES</a></li>
                             <li><a href="/galeriaActividadNimbuFiltro/?nombreFiltro=charlas">CHARLAS</a></li>
                             <li><a href="/galeriaActividadNimbuFiltro/?nombreFiltro=capacitaciones">CAPACITACIONES</a></li>
-                            <li><a href="/galeriaActividadNimbuFiltro/?nombreFiltro=asesorias">ASESORIAS</a></li>
+                            <li><a href="/galeriaActividadNimbuFiltro/?nombreFiltro=asesorias">ASESORÍAS</a></li>
                             <li><a href="/galeriaActividadNimbuFiltro/?nombreFiltro=talleres">TALLERES</a></li>
                             <li><a href="/galeriaActividadNimbuFiltro/?nombreFiltro=eventos">EVENTOS</a></li>
-                            <li><a href="/galeriaActividadNimbuFiltro/?nombreFiltro=investigacion">INVESTIGACION</a></li>
+                            <li><a href="/galeriaActividadNimbuFiltro/?nombreFiltro=investigacion">INVESTIGACIÓN</a></li>
                         </ul>
                     </nav>
                 </div>

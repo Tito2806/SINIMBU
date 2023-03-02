@@ -36,6 +36,8 @@
                         </ul>
                     </nav>
                 </div>
+
+                
                 <div class="container-cards">
                 <div class="cards">
                     @foreach ($galeria as $galerias)
