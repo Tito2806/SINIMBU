@@ -12,7 +12,7 @@
     <div class="container" style="margin-top: 30px">
         <div class="card">
             <div class="card-header">
-                <h2>Repositorio Nimbu</h2>
+                <h2>Repositorio de Archivos NIMBU</h2>
             </div>
             <div class="card-body">
                 <div class="col-md-12">
@@ -22,8 +22,8 @@
                                 <tr>
                                     <th>Icono</th>
                                     <th>Autor</th>
-                                    <th>Titulo</th>
-                                    <th>descripción</th>
+                                    <th>Título</th>
+                                    <th>Descripción</th>
                                     <th>Fecha</th>
                                     <th>Ver</th>
                                     <th>Descargar</th>

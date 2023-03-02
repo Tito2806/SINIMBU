@@ -53,6 +53,7 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
@@ -4276,16 +4277,19 @@ input[type=button].btn-block {
 }
 
 .card-img,
-.card-img-top,
+.
+,
 .card-img-bottom {
   flex-shrink: 0;
   width: 100%;
+  margin-top: 50px;
 }
 
 .card-img,
 .card-img-top {
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
+
 }
 
 .card-img,

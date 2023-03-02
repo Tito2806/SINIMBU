@@ -4,11 +4,11 @@
 
             @if (Auth::check() && Auth::user()->rol == 'Administrador')
                 <div class="card-header">
-                    <h2>Tabla Galeria</h2>
+                    <h2>Registro de Imágenes de la Fauna</h2>
                     <!--boton que llama al modal de crear usuario-->
                     <div class="d-flex flex-row-reverse"><button
                             class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder" id="createNewGaleria"><i
-                                class="fas fa-plus"></i>Agregar Galeria</button></div>
+                                class="fas fa-plus"></i>Agregar Imagen</button></div>
                 </div>
                 <div class="card-body">
                     <div class="col-md-12">
@@ -17,9 +17,9 @@
                                 <thead class="font-weight-bold text-center">
                                     <tr>
                                         {{-- <th>No.</th> --}}
-                                        <th>Titulo</th>
+                                        <th>Título</th>
                                         <th>Descripción</th>
-                                        <th>Categoria</th>
+                                        <th>Categoría</th>
                                         <th>Imagen</th>
                                         <th>Acción</th>
                                     </tr>
@@ -42,7 +42,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h5 class="modal-title text-white" id="exampleModalLabel">Modal Galeria</h5>
+                <h5 class="modal-title text-white" id="exampleModalLabel">Crear Imagen de Fauna</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
@@ -60,8 +60,8 @@
                         </div>
                         <br>
                         <select class="form-control" id="categoria" name="categoria" required>
-                            <option value="">Seleccione una categoria</option>
-                            <option value="mamifero">Mamiferos</option>
+                            <option value="">Seleccione una categoría</option>
+                            <option value="mamifero">Mamíferos</option>
 
                             <option value="aves">Aves</option>
                             <!--Funcionalidad para selección de temas predeterminados Lun 19 Sept-->
@@ -127,7 +127,7 @@
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
-                    title: 'Se completo con exito!',
+                    title: 'Se completó con éxito!',
                     showConfirmButton: false,
                     timer: 1000
                 })
@@ -137,7 +137,7 @@
                 Swal.fire({
                     position: 'centered',
                     icon: 'error',
-                    title: 'Ocurrrio un problema!',
+                    title: 'Ocurrió un problema!',
                     showConfirmButton: true,
                 })
             }
@@ -276,13 +276,13 @@
                 var id_galeria = $(this).data("id");
 
                 Swal.fire({
-                    title: 'Esta seguro?',
-                    text: "Esta accion no se puede revertir!",
+                    title: 'Está seguro?',
+                    text: "Esta acción no se puede revertir!",
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#3085d6',
                     cancelButtonColor: '#d33',
-                    confirmButtonText: 'Si, Eliminar!'
+                    confirmButtonText: 'Sí, Eliminar!'
                 }).then((result) => {
                     if (result.isConfirmed) {
                         $.ajax({

@@ -5,7 +5,7 @@
 
 @if (Auth::check() && Auth::user()->rol == 'Administrador')
 <div class="card-header">
-    <h2>Tabla Repositorio</h2>
+    <h2>Registro de Archivos</h2>
     <!--boton que llama al modal de crear usuario-->
     <div class="d-flex flex-row-reverse"><button
             class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder" id="createNewDocumento"><i
@@ -19,8 +19,8 @@
                     <tr>
                         {{-- <th>No.</th> --}}
                         <th>Autor</th>
-                        <th>Titulo</th>
-                        <th>Descripcion</th>
+                        <th>Título</th>
+                        <th>Descripción</th>
                         <th>Tipo Archivo</th>
                         <th>Fecha</th>
                         <th>Acción</th>
@@ -44,7 +44,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h5 class="modal-title text-white" id="exampleModalLabel">Modal Repositorio Archivos</h5>
+                <h5 class="modal-title text-white" id="exampleModalLabel">Crear Archivos</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
@@ -58,7 +58,7 @@
                             </div>
                         <br>
                         <input type="text" name="titulo" class="form-control" id="titulo"
-                            placeholder="Escriba el titulo">
+                            placeholder="Escriba el título">
                             <div class="errors" id="error_Titulo">
                             </div>
                         <br>
@@ -129,7 +129,7 @@
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
-                    title: 'Se completo con exito!',
+                    title: 'Se completó con éxito!',
                     showConfirmButton: false,
                     timer: 1000
                 })
@@ -139,7 +139,7 @@
                 Swal.fire({
                     position: 'centered',
                     icon: 'error',
-                    title: 'Ocurrrio un problema!',
+                    title: 'Ocurrrió un problema!',
                     showConfirmButton: true,
                 })
             }
@@ -271,13 +271,13 @@
             $('body').on('click', '.deleteArchivo', function() {
                 var id_archivo = $(this).data("id");
                 Swal.fire({
-                    title: 'Esta seguro?',
-                    text: "Esta accion no se puede revertir!",
+                    title: 'Está seguro?',
+                    text: "Esta acción no se puede revertir!",
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#3085d6',
                     cancelButtonColor: '#d33',
-                    confirmButtonText: 'Si, Eliminar!'
+                    confirmButtonText: 'Sí, Eliminar!'
                 }).then((result) => {
                     if (result.isConfirmed) {
                         $.ajax({
