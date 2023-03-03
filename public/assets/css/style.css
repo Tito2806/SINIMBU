@@ -337,6 +337,7 @@ h3 {
   line-height: 1.285714285714286em;
   font-weight: 400;
   letter-spacing: 2px;
+
 }
 
 h4 {
@@ -1624,10 +1625,17 @@ span.description {
 
 /********* About us *********/
 
-.container-about {
-  background-color: #fff;
+.container-about-ENTIDADES {
+  background-color: #a9b0b653;
   padding: 60px 0 60px 0;
- 
+  
+  
+}
+.container-about-ENTIDADES .h3 {
+  background-color: #a9b0b653;
+  padding: 60px 0 60px 0;
+  margin-top: 100%;
+  
 }
 
 .container-about-2 {
@@ -3459,6 +3467,7 @@ textarea {}
   align-content: space-between;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .blog-posts-g:after {
@@ -3478,7 +3487,7 @@ textarea {}
 
 .blog-posts-g .post-img {
   position: relative;
-  background: #fff;
+ 
   overflow: hidden;
 }
 
