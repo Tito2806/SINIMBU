@@ -18,18 +18,10 @@
        
         </div>
       </div>
-       <div class="col-md-12">
-                  <h3 class="title-un"></h3>
-                  <div class="title-un-icon"><i class="fa ion-ios-flame-outline"></i></div>
-                 <!--  <p class="title-un-des">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p>-->
-               </div>
-
-    <div id="contenedor-cards">
-        <h1>
-            Actividades Nimbú
-        </h1>
-
-    
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem iusto impedit sint animi omnis sit,
+       maiores blanditiis consectetur non quos beatae iure, ducimus pariatur fugit, sunt velit et tenetur modi.</p>
+     
+   
         @foreach($actividad as $actividades)
        
         <div id="card-activity" class="blog-card">

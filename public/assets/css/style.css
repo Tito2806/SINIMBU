@@ -5063,6 +5063,7 @@ input[type="submit"]:focus {
 
 .footer-holder {
   background: #fafafa;
+  margin-top: 10px;
 }
 
 .footer-holder .site-footer {

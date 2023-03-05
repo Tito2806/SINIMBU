@@ -2,6 +2,11 @@
   display: flex;
 }
 
+.p{
+  font-size: 30px;
+}
+
+
 .blog-card {
   
   display: flex;

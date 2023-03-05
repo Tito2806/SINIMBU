@@ -11,6 +11,7 @@ body {
   
   p {
     line-height: 1.5;
+    font-size: 30px;
   }
   
   .container {
@@ -66,7 +67,9 @@ body {
     top: -6%;
     left: -6%;
   }
-  
+  .p{
+    font-size: 30px;
+  }
   .card-color-0 {
     background-color: #EB5160;
   }
