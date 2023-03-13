@@ -1,9 +1,10 @@
-.row{
+.rowCard{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
-    
+    background-color: #69d8d819;
+    padding-bottom: 20px;
   }
   .col-md-3{
     margin: 10px;
@@ -21,6 +22,7 @@
     width: 60%;
     padding: 10px;
     margin: 10px;
+    background-color: white;
 
    
 

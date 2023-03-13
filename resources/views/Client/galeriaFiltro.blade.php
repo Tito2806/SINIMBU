@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="title-un">GALERIA FILTRO</h3>
-                    <div class="title-un-icon"><i class="fa ion-ios-heart-outline"></i></div>
+                   
                     <!-- <p class="title-un-des">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p>-->
                 </div>
             </div>
