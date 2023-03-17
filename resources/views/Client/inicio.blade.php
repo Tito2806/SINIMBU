@@ -197,17 +197,11 @@
                      <div class="row">
                         <div class="col-md-4">
                            <div class="service-tagline">
-                              <p>
-                                 If you decide that you’re going to do only the things you know are going to work, you’re going to leave a lot of opportunity on the table.
-                                 <br> ― Jeff Bezos
-                              </p>
+                             
                            </div>
                         </div>
                         <div class="col-md-8">
-                           <p> Caecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit. In maximus ligula metus pellentesque mattis. Caecenas volutpat.
-                           </p>
-                           <p> Daecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
-                           </p>
+                           
                         </div>
                      </div>
                   </div>
@@ -215,17 +209,11 @@
                      <div class="row">
                         <div class="col-md-4">
                            <div class="service-tagline">
-                              <p>
-                                 If you decide that you’re going to do only the things you know are going to work, you’re going to leave a lot of opportunity on the table.
-                                 <br> ― Jeff Bezos
-                              </p>
+                             
                            </div>
                         </div>
                         <div class="col-md-8">
-                           <p> Caecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit. In maximus ligula metus pellentesque mattis. Caecenas volutpat.
-                           </p>
-                           <p> Daecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
-                           </p>
+                         
                         </div>
                      </div>
                   </div>
@@ -233,17 +221,11 @@
                      <div class="row">
                         <div class="col-md-4">
                            <div class="service-tagline">
-                              <p>
-                                 If you decide that you’re going to do only the things you know are going to work, you’re going to leave a lot of opportunity on the table.
-                                 <br> ― Jeff Bezos
-                              </p>
+                              
                            </div>
                         </div>
                         <div class="col-md-8">
-                           <p> Caecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit. In maximus ligula metus pellentesque mattis. Caecenas volutpat.
-                           </p>
-                           <p> Daecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
-                           </p>
+                          
                         </div>
                      </div>
                   </div>
@@ -449,12 +431,12 @@
             <!-- Blog Section -->
            
 
-            <div class="container-about" class="align-center">
+            <div class="container-about-ENTIDADES" class="align-center">
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
                         <h3 class="title-un">ENTIDADES A CARGO</h3>
-                        <div class="title-un-icon"></div>
+                     
                        <!-- <p class="title-un-des">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p>-->
                         <ul class="blog-posts-g">
                            <li>
@@ -463,23 +445,15 @@
                                     <img src="../../../assets/images/LOGO PNG CEMEDE FULL.png" alt="Meet the New UI Design">
                                  </a>
                               </div>
-                              <div class="post-content">
-                                 <h5><a href="#"> Adolfo Salinas Acosta </a></h5>
-                                 <div class="post-info"><span> Profesor</span>/<span><a href="#">UNA SEDE NICOYA</a></span></div>
-                               
-                              </div>
+                           
                            </li>
                            <li>
                               <div class="post-img">
                                  <a href="#">
-                                    <img src="../../../assets/images/UNA.jpeg" alt="A LOOK INSIDE THE Workspace">
+                                    <img src="../../../assets/images/LOGOS sede.png" alt="A LOOK INSIDE THE Workspace">
                                  </a>
                               </div>
-                              <div class="post-content">
-                                 <h5> <a href="#"> Ronald Sánchez Brenes </a></h5>
-                                 <div class="post-info"><span> Profesor</span>/<span><a href="#"> UNA SEDE LIBERIA</a></span></div>
-                                
-                              </div>
+                             
                            </li>
                      
                            <!--<li>
@@ -516,6 +490,8 @@
                </div>
             </div>
                </div>
+
+           
             
        
 
@@ -529,12 +505,10 @@
                   </div>
                   <div class="col-md-6">
                      <ul class="footer-nav">
-                        <li><a href="#" class="Abou"> Acerca de</a></li>
-      <li><a href="#" class="fa fa-facebook"></a></li> 
+      <li><a href="https://www.facebook.com/profile.php?id=100090633485475&mibextid=LQQJ4d" class="fa fa-facebook"></a></li> 
       <li><a href="#" class="fa fa-twitter"></a></li> 
-      <li><a href="#" class="fa fa-google-plus"></a></li>
-      <li><a href="#" class="fa fa-youtube"></a></li>
-      <li><a href="#" class="fa fa-linkedin"></a></li>
+      <li><a href="https://www.youtube.com/@centromesoamericanodedesso4492/videos" class="fa fa-youtube"></a></li>
+      <li><a href="https://www.instagram.com/nimbu_una/" class="fa fa-instagram"></a></li>
       
       
                      </ul>

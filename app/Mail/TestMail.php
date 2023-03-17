@@ -11,16 +11,18 @@ class TestMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $details;
+    public $email;
+    public $messages;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($details)
+    public function __construct($email,$messages)
     {
-        $this->details = $details;
+        $this->email = $email;
+        $this->messages = $messages;
     }
 
     /**
@@ -30,6 +32,8 @@ class TestMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Email confirmación')->view('Client.ConfirmacionEmail');
+        return $this
+        ->subject('Aviso de la reservacion de la capacitacion ')
+        ->markdown('Client.ConfirmacionEmail');
     }
 }

@@ -41,6 +41,7 @@ class ReservarCapacitacionRequest extends FormRequest
             'nombre' => 'required|regex:/^[a-zA-ZñÑáéíóúÁÉÍÓÚ]+$/u|string|max:30|min:3',
             'apellido1' => 'required|regex:/^[a-zA-ZñÑáéíóúÁÉÍÓÚ]+$/u|string|max:30|min:3',
             'apellido2' => 'required|regex:/^[a-zA-ZñÑáéíóúÁÉÍÓÚ]+$/u|string|max:30|min:3',
+            //esta validacion solo permite de 2 al 9 el primer numero
             'celular' => 'required|regex:/^[2-9]\d{3}\d{4}$/',
             'email' => 'required|email|regex:/[\w._%+-]+@[\w.-]+\.[a-zA-Z]{2,4}/|min:4|max:100',         
         ];
@@ -72,6 +73,7 @@ class ReservarCapacitacionRequest extends FormRequest
             'nombre.*' => 'Nombre requiere mínimo 3 caracteres y máximo 30',
             'apellido1.*' => 'El primer apellido requiere mínimo 3 caracteres y máximo 30',
             'apellido2.*' => 'El segundo apellido requiere mínimo 3 caracteres y máximo 30',
+            'celular.regex' => 'El formato es incorrecto, digite un numero valido',
             'celular.*' => 'Teléfono se requiere, 8 dígitos',
             'email.*' => 'Correo se requiere, ejemplo: ejemplo@gmail.com',
         ];

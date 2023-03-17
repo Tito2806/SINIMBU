@@ -37,13 +37,13 @@ class ClienteController extends Controller
 
     public function actividades()
     {
-        $actividad = DB::table('actividads')->paginate(6);
+        $actividad = DB::table('actividads')->paginate(2);
 		return view('Client.actividades', compact('actividad'));
     }
 
     public function galeriaActividad()
     {
-        $galeriaActividad = DB::table('galeriaactividads')->paginate(6);
+        $galeriaActividad = DB::table('galeriaactividads')->paginate(2);
 		return view('Client.galeriaActividad', compact('galeriaActividad'));
     }
     public function galeriaActividadFiltro(Request $request)
@@ -53,7 +53,7 @@ class ClienteController extends Controller
     }
     public function galeria()
     {        
-            $galeria = DB::table('galerias')->paginate(6);
+            $galeria = DB::table('galerias')->paginate(2);
             return view('Client.galeria', compact('galeria'));
     }
 
@@ -66,7 +66,7 @@ class ClienteController extends Controller
 
     public function capacitacionInfo() //tried emulating process to render capacitacionInfo view
     {
-        $capacitacion = DB::table('capacitacions')->paginate(6);
+        $capacitacion = DB::table('capacitacions')->paginate(3);
         return view('Client.capacitacionInfo',compact('capacitacion'));
     }
 
@@ -101,12 +101,11 @@ class ClienteController extends Controller
                  'email' => $request->email,
                 ]);        
 
+                $email = $request->email;
 
-                $details=[
-                    'tittle' => 'Confirmación de reservación',
-                    'body' => "Reservacion realizada para la capacitacion $capacitacion->nombre en la fecha $capacitacion->horario y hora $capacitacion->hora en la modalidad $capacitacion->modalidad el tema es $capacitacion->tema"
-                ];
-                Mail::to($request->email)->send(new TestMail($details));
+                $messages = "Reservacion realizada para la capacitacion $capacitacion->nombre en la fecha $capacitacion->horario y hora $capacitacion->hora en la modalidad $capacitacion->modalidad el tema es $capacitacion->tema.";
+    
+                Mail::to($email)->send(new TestMail($email,$messages));
 
                 return response()->json(['success'=>'Reservación completada!']);
                 

@@ -3,11 +3,11 @@
         <div class="card">
             @if (Auth::check() && Auth::user()->rol == 'Administrador')
                 <div class="card-header">
-                    <h2>Tabla Reservaciones</h2>
+                    <h2>Registro de capacitaciones reservadas</h2>
                     <!--boton que llama al modal de crear usuario-->
                     <div class="d-flex flex-row-reverse"><button
                             class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder" id="createNewReservacion"><i
-                                class="fas fa-plus"></i>Agregar Reservacion</button></div>
+                                class="fas fa-plus"></i>Reservar Capacitación</button></div>
                 </div>
                 <div class="card-body">
                     <div class="col-md-12">
@@ -21,7 +21,7 @@
                                         <th>Primer apellido</th>
                                         <th>Segundo apellido</th>
                                         <th>Celular</th>
-                                        <th>Email</th>
+                                        <th>Correo</th>
                                         <th>Acción</th>
                                     </tr>
                                 </thead>
@@ -43,7 +43,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h5 class="modal-title text-white" id="exampleModalLabel">Modal Reservacion</h5>
+                <h5 class="modal-title text-white" id="exampleModalLabel">Crear Reservación</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
@@ -52,7 +52,7 @@
                 <form id="formReservacion" name="formReservacion">
                     <div class="form-group">
                         <select class="form-control" name="idCapacitacion" id="idCapacitacion">
-                            <option value="">Seleccionar capacitacion</option>
+                            <option value="">Seleccionar capacitación</option>
                             @foreach ($capacitacion as $capacitaciones)
                                 <option value="{{ $capacitaciones->id }}">{{ $capacitaciones->nombre }}</option>
                             @endforeach
@@ -76,12 +76,12 @@
                         </div>
                         <br>
                         <input type="number" name="celular" class="form-control" id="celular" required
-                            placeholder="Escribar el celular">
+                            placeholder="Escriba el celular">
                         <div class="errors" id="error_Celular">
                         </div>
                         <br>
                         <input type="email" name="email" class="form-control" id="email" required
-                            placeholder="Escribar el email">
+                            placeholder="Escriba el correo electrónico">
                         <div class="errors" id="error_Email">
                         </div>
                         <br>
@@ -112,7 +112,7 @@
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
-                    title: 'Se completo con exito!',
+                    title: 'Se completó con éxito!',
                     showConfirmButton: false,
                     timer: 1000
                 })
@@ -122,7 +122,7 @@
                 Swal.fire({
                     position: 'centered',
                     icon: 'error',
-                    title: 'Ocurrrio un problema!',
+                    title: 'Ocurrrió un problema!',
                     showConfirmButton: true,
                 })
             }
@@ -273,13 +273,13 @@
                 var id_reservar = $(this).data("id");
 
                 Swal.fire({
-                    title: 'Esta seguro?',
-                    text: "Esta accion no se puede revertir!",
+                    title: 'Está seguro?',
+                    text: "Esta acción no se puede revertir!",
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#3085d6',
                     cancelButtonColor: '#d33',
-                    confirmButtonText: 'Si, Eliminar!'
+                    confirmButtonText: 'Sí, Eliminar!'
                 }).then((result) => {
                     if (result.isConfirmed) {
                         $.ajax({

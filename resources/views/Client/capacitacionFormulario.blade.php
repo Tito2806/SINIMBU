@@ -4,7 +4,7 @@
 
     <div class="container" style="margin-top: 10px">
         <div class="row">
-            <div class="card">
+            <div class="card-2">
                 <div class="tittle">
                     <h3>RESERVACIÓN DE CAPACITACIÓN</h3>
                 </div>

@@ -3,7 +3,7 @@
         <div class="card">
             @if (Auth::check() && Auth::user()->rol == 'Administrador')
                 <div class="card-header">
-                    <h2>Tabla Actividad</h2>
+                    <h2>Registro de Actividades</h2>
                     <!--boton que llama al modal de crear usuario-->
                     <div class="d-flex flex-row-reverse"><button
                             class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder" id="createNewActividad"><i
@@ -16,7 +16,7 @@
                                 <thead class="font-weight-bold text-center">
                                     <tr>
                                         {{-- <th>No.</th> --}}
-                                        <th>Titulo</th>
+                                        <th>Título</th>
                                         <th>Descripción</th>
                                         <th>Lugar</th>
                                         <th>Fecha</th>
@@ -43,7 +43,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h5 class="modal-title text-white" id="exampleModalLabel">Modal Actividad</h5>
+                <h5 class="modal-title text-white" id="exampleModalLabel">Crear Actividad</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>

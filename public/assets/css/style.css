@@ -337,6 +337,7 @@ h3 {
   line-height: 1.285714285714286em;
   font-weight: 400;
   letter-spacing: 2px;
+
 }
 
 h4 {
@@ -1624,24 +1625,35 @@ span.description {
 
 /********* About us *********/
 
-.container-about {
-  background-color: #fff;
+.container-about-ENTIDADES {
+  background-color: #a9b0b653;
   padding: 60px 0 60px 0;
+  
+  
+}
+.container-about-ENTIDADES .h3 {
+  background-color: #a9b0b653;
+  padding: 60px 0 60px 0;
+  margin-top: 100%;
+  
 }
 
 .container-about-2 {
   background-color: #fff;
   padding: 40px 0 40px 0;
+ 
 }
 
 .container-newsletter {
   background: #fafafa;
   padding: 60px 0 60px 0;
+ 
 }
 
 .container-about-3 {
   background-color: #f5f5f5;
   padding: 63px 0 40px 0;
+  
 }
 
 
@@ -3449,6 +3461,13 @@ textarea {}
 .blog-posts-g {
   padding: 0;
   margin: 0 -1.08025% 0 -1.08025%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .blog-posts-g:after {
@@ -3468,7 +3487,7 @@ textarea {}
 
 .blog-posts-g .post-img {
   position: relative;
-  background: #fff;
+ 
   overflow: hidden;
 }
 
@@ -5044,6 +5063,7 @@ input[type="submit"]:focus {
 
 .footer-holder {
   background: #fafafa;
+  margin-top: 10px;
 }
 
 .footer-holder .site-footer {

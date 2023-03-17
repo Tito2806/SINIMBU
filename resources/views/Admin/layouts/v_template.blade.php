@@ -56,13 +56,13 @@
     <script>
         function swag_logout() {
             Swal.fire({
-                title: 'Wanna Out?',
+                title: 'Quiere Salir?',
                 text: "",
                 icon: 'warning',
                 showCancelButton: true,
                 confirmButtonColor: '#3085d6',
                 cancelButtonColor: '#d33',
-                confirmButtonText: 'Yes !'
+                confirmButtonText: 'Sí!'
             }).then((result) => {
                 if (result.isConfirmed) {
                     document.getElementById('logout-form').submit();
@@ -143,7 +143,7 @@
                                 <div
                                     class="btn btn-icon btn-icon-mobile w-auto btn-clean d-flex align-items-center btn-lg px-2">
                                     <span
-                                        class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi,</span>
+                                        class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Bienvenido,</span>
                                     <span
                                         class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">
                                         {{ Auth::user()->name }}</span>

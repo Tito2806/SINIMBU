@@ -3,11 +3,11 @@
         <div class="card">
             @if (Auth::check() && Auth::user()->rol == 'Administrador')
                 <div class="card-header">
-                    <h2>Tabla Capacitaciones</h2>
+                    <h2>Registro Capacitaciones</h2>
                     <!--boton que llama al modal de crear usuario-->
                     <div class="d-flex flex-row-reverse"><button
                             class="btn btn-sm btn-pill btn-outline-primary font-weight-bolder" id="createNewCapacitacion"><i
-                                class="fas fa-plus"></i>Agregar Capacitacion</button></div>
+                                class="fas fa-plus"></i>Agregar Capacitación</button></div>
                 </div>
                 <div class="card-body">
                     <div class="col-md-12">
@@ -18,7 +18,7 @@
                                         {{-- <th>No.</th> --}}
                                         <th>Nombre</th>
                                         <th>Modalidad</th>
-                                        <th>Horario</th>
+                                        <th>Fecha</th>
                                         <th>Hora</th>
                                         <th>Tema</th>
                                         <th>Acción</th>
@@ -42,7 +42,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h5 class="modal-title text-white" id="exampleModalLabel">Modal Capacitacion</h5>
+                <h5 class="modal-title text-white" id="exampleModalLabel">Crear capacitación</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i aria-hidden="true" class="ki ki-close"></i>
                 </button>
@@ -63,7 +63,7 @@
                         <div class="errors" id="error_Modalidad">
                         </div>
                         <br>
-                        <label for="fecha">Horario de la capacitación</label>
+                        <label for="fecha">Fecha de la capacitación</label>
                         <input type="date" name="horario" class="form-control" id="horario" required
                             placeholder="Horario de la capacitacion">
                         <div class="errors" id="error_Horario">
@@ -111,7 +111,7 @@
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
-                    title: 'Se completo con exito!',
+                    title: 'Se completó con éxito!',
                     showConfirmButton: false,
                     timer: 1000
                 })
@@ -260,13 +260,13 @@
                 var id_actividad = $(this).data("id");
 
                 Swal.fire({
-                    title: 'Esta seguro?',
-                    text: "Esta accion no se puede revertir!",
+                    title: 'Está seguro?',
+                    text: "Esta acción no se puede revertir!",
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#3085d6',
                     cancelButtonColor: '#d33',
-                    confirmButtonText: 'Si, Eliminar!'
+                    confirmButtonText: 'Sí, Eliminar!'
                 }).then((result) => {
                     if (result.isConfirmed) {
                         $.ajax({

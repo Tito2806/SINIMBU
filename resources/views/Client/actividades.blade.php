@@ -2,6 +2,22 @@
 @section('content')
 
     <link rel="stylesheet" href="{{ asset('../../css/actividades.css') }}">
+   
+
+    <div class="container-newsletter">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h3 class="title-un">Subscribe Newsletter</h3>
+               <div class="title-un-icon"><i class="fa ion-ios-book-outline"></i></div>
+               <p class="title-un-des">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p>
+               <div class="newsletter-container wow fadeInUp">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vlJ5ZprkjN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
     <div class="slider-wrapper">
       <div class="fr-slider">
         <div class="slide">
@@ -18,18 +34,17 @@
        
         </div>
       </div>
-       <div class="col-md-12">
-                  <h3 class="title-un"></h3>
-                  <div class="title-un-icon"><i class="fa ion-ios-flame-outline"></i></div>
-                 <!--  <p class="title-un-des">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p>-->
-               </div>
 
-    <div id="contenedor-cards">
-        <h1>
-            Actividades Nimbú
-        </h1>
-
+     
     
+<div class="row"></div>
+  
+   
+
+
+
+
+   <div>
         @foreach($actividad as $actividades)
        
         <div id="card-activity" class="blog-card">
