@@ -4,45 +4,34 @@
     <link rel="stylesheet" href="{{ asset('../../css/actividades.css') }}">
    
 
-    <div class="container-newsletter">
+ 
       <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <h3 class="title-un">Subscribe Newsletter</h3>
-               <div class="title-un-icon"><i class="fa ion-ios-book-outline"></i></div>
-               <p class="title-un-des">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p>
-               <div class="newsletter-container wow fadeInUp">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vlJ5ZprkjN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-               </div>
+      <H1>Actividades</H1>
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+             
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded" src="../../../assets/images/Nimbu1.jpeg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="border-start border-5 border-primary ps-5 mb-5">
+                   
+                    <h3 class="display-5 text-uppercase mb-0">Aspectos que se debe considerar antes de elegir una actividad</h3>
+                    </div>
+                    <h5 class="text-body mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis harum corrupti minus a eos nesciunt 
+                      cumque nihil totam fugiat blanditiis nisi quibusdam neque officia reiciendis eveniet, natus rem iusto sapiente! Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no labore lorem sit clita duo justo magna dolore</h5>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/vlJ5ZprkjN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
-    <div class="slider-wrapper">
-      <div class="fr-slider">
-        <div class="slide">
-            <img data-fixed class="slide-bg" src= "../../../assets/images/slider/Barco.JPG"  alt="slide">
-            <h1 data-position="60,260" data-delay="800" data-in="fade" data-out="fade" style="color:rgb(251, 251, 252);"> ACTIVIDADES NIMBÚ </h1>
-            <img data-position="322,468" data-delay="1400" data-in="fade" data-out="fade" src="../../../assets/images/slider/e4.png" alt="Enfold">
-            
-           <!-- <img data-position="100,530" data-delay="600" data-in="fade" data-out="fade" src="../../../assets/images/slider/NINBUBLANCO.png" alt="Enfold">
-        <h1 data-position="155,554" data-delay="300" data-in="fade" data-out="fade"> Nimbu </h1>
-            <img data-position="236,449" data-delay="1000" data-in="fade" data-out="fade" src="../../../assets/images/slider/e3.png" alt="Enfold">
-            <img data-position="322,468" data-delay="1400" data-in="fade" data-out="fade" src="../../../assets/images/slider/e4.png" alt="Enfold">
-            <img data-position="384,446" data-delay="1800" data-in="fade" data-out="fade" src="../../../assets/images/slider/e5.png" alt="Enfold">-->
-         </div>
-       
+           
         </div>
-      </div>
-
      
     
-<div class="row"></div>
+                          
+  <div class="row"></div>
   
-   
-
-
-
 
    <div>
         @foreach($actividad as $actividades)

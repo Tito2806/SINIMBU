@@ -58,8 +58,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="border-start border-5 border-primary ps-5 mb-5">
-                        <h6 class="text-primary text-uppercase">About Us</h6>
-                        <h1 class="display-5 text-uppercase mb-0">We Keep Your Pets Happy All Time</h1>
+                        <h2 class="display-5 text-uppercase mb-0">Información importante para solicitar una capacitación</h2>
                     </div>
                     <h4 class="text-body mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis harum corrupti minus a eos nesciunt 
                       cumque nihil totam fugiat blanditiis nisi quibusdam neque officia reiciendis eveniet, natus rem iusto sapiente! Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no labore lorem sit clita duo justo magna dolore</h4>

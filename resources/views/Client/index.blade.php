@@ -33,7 +33,7 @@
 			  <div class="row">
 				 <div class="header-table col-md-12">
 					<div class="brand">
-                        <a href="/"><img src="{{asset('/images/logov2.png')}}" alt="Enfold"></a>
+                        <a href="/"><img src="{{asset('/images/logoFinal.jpeg')}}" alt="Enfold"></a>
 
 					   </a>
 					</div>
@@ -41,7 +41,7 @@
 					   <div id="mobnav-btn"> </div>
 					   <ul class="sf-menu">
 						<li class="current">
-							<a href="/">Inicio</a>
+							
 						 </li>
 						  <li>
 							 <a href="/actividadesNimbu">Actividades</a>
